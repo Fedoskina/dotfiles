@@ -7,6 +7,7 @@ cd $DIR
 #git submodule update --init --recursive
 
 declare -a files=(
+  .config # fish and stuff
   .gitconfig
   .terminfo
 )

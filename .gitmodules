@@ -1,0 +1,3 @@
+[submodule ".config/fish/themes/pure"]
+	path = .config/fish/themes/pure
+	url = git@github.com:viatsko/pure.git
