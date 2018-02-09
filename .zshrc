@@ -19,6 +19,10 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+for alias_file in $HOME/.zsh/aliases/**/*; do
+  source $alias_file
+done
+
 source $HOME/.zsh/exports.zsh
 source $HOME/.zsh/functions.zsh
 source $HOME/.zsh/keybindings.zsh
