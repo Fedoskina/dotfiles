@@ -7,9 +7,11 @@ cd $DIR
 #git submodule update --init --recursive
 
 declare -a files=(
-  .config # fish and stuff
   .gitconfig
+  .oh-my-zsh
   .terminfo
+  .zsh
+  .zshrc
 )
 
 for file in "${files[@]}"; do
