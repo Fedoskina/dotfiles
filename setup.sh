@@ -9,6 +9,8 @@ git submodule update --init --recursive
 declare -a files=(
   .dircolors
   .gitconfig
+  .gitignore
+  .gitattributes
   .oh-my-zsh
   .terminfo
   .vim
