@@ -3,8 +3,8 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR
 
-#git submodule init
-#git submodule update --init --recursive
+git submodule init
+git submodule update --init --recursive
 
 declare -a files=(
   .gitconfig
