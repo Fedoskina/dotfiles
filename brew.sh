@@ -1,7 +1,7 @@
 #!/bin/sh
 
-brew install fish
-sudo bash -c 'echo "/usr/local/bin/fish" >> /etc/shells'
-chsh -s /usr/local/bin/fish
+brew install zsh
+sudo bash -c 'echo "/usr/local/bin/zsh" >> /etc/shells'
+chsh -s /usr/local/bin/zsh
 
 brew install fzf
