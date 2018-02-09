@@ -13,6 +13,7 @@ plugins=(
   docker
   docker-aliases
   git
+  zsh-autosuggestions
   zsh-syntax-highlighting
 )
 
