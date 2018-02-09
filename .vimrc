@@ -1,6 +1,8 @@
 let mapleader=" "
 map <leader>s :source ~/.vimrc<CR>
 
+set clipboard=unnamed
+
 " Automatic, language-dependent indentation, syntax coloring and other
 " functionality.
 filetype indent plugin on
