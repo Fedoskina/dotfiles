@@ -7,8 +7,11 @@ export ZSH=$HOME/.oh-my-zsh
 stty -ixon
 
 ZSH_THEME="dst"
+ZSH_CUSTOM=$HOME/.zsh/oh-my-zsh-custom
 
 plugins=(
+  docker
+  docker-aliases
   git
 )
 
