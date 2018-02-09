@@ -15,3 +15,6 @@ brew install findutils
 brew install gnu-sed --with-default-names
 
 brew install pstree
+
+brew cask install caskroom/versions/java8
+brew install maven
