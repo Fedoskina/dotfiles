@@ -11,6 +11,8 @@ declare -a files=(
   .gitconfig
   .gitignore
   .gitattributes
+  .hushlogin
+  .inputrc
   .oh-my-zsh
   .terminfo
   .vim
