@@ -3,6 +3,9 @@
 
 export ZSH=$HOME/.oh-my-zsh
 
+# turn off flow control (prevent CTRL-S from capturing all output)
+stty -ixon
+
 ZSH_THEME="dst"
 
 plugins=(
