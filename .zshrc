@@ -27,6 +27,11 @@ if [ -d $FZF_DIR ]; then
   source $FZF_DIR/shell/key-bindings.zsh
 fi
 
+GCP_SDK=/usr/local/Caskroom/google-cloud-sdk
+if [ -d $GCP_SDK ]; then
+  source $GCP_SDK/latest/google-cloud-sdk/path.zsh.inc
+fi
+
 HOST_RC=$HOME/.zsh/host/$HOSTNAME
 if [ -f $HOST_RC ]; then
   source $HOST_RC
