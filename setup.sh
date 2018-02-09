@@ -10,6 +10,8 @@ declare -a files=(
   .gitconfig
   .oh-my-zsh
   .terminfo
+  .vim
+  .vimrc
   .zsh
   .zshrc
 )
