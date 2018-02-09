@@ -41,11 +41,3 @@ LOCAL_RC=$HOME/.zshrc.local
 if [ -f $LOCAL_RC ]; then
   source $LOCAL_RC
 fi
-
-# Empty line after output
-function echo_blank() {
-  echo
-}
-
-# preexec_functions+=echo_blank
-precmd_functions+=echo_blank
