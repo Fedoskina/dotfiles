@@ -23,6 +23,11 @@ for alias_file in $HOME/.zsh/aliases/**/*; do
   source $alias_file
 done
 
+# here's LS_COLORS
+# github.com/trapd00r/LS_COLORS
+command -v gdircolors >/dev/null 2>&1 || alias gdircolors="dircolors"
+eval "$(gdircolors -b ~/.dircolors)"
+
 source $HOME/.zsh/exports.zsh
 source $HOME/.zsh/functions.zsh
 source $HOME/.zsh/keybindings.zsh
