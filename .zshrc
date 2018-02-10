@@ -13,8 +13,10 @@ plugins=(
   docker
   docker-aliases
   git
+  kubectl
   zsh-autosuggestions
   zsh-syntax-highlighting
+  z
 )
 
 source $ZSH/oh-my-zsh.sh
