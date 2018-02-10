@@ -18,3 +18,6 @@ brew install pstree
 
 brew cask install caskroom/versions/java8
 brew install maven
+
+brew cask install docker-edge
+brew install kubectl
