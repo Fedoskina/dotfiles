@@ -33,6 +33,7 @@ eval "$(gdircolors -b ~/.dircolors)"
 source $HOME/.zsh/exports.zsh
 source $HOME/.zsh/functions.zsh
 source $HOME/.zsh/keybindings.zsh
+source $HOME/.zsh/path.zsh
 source $HOME/.zsh/vars.zsh
 source $HOME/.zsh/hacks/fast-git-dirty-check.zsh
 
