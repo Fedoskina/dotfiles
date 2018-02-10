@@ -15,3 +15,4 @@
 * [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
 * [Paul Irish](https://github.com/paulirish/dotfiles)
 * [Paul Miller](https://github.com/paulmillr/dotfiles)
+* [Zack Holman](https://github.com/holman/dotfiles)
