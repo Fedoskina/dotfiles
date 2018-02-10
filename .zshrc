@@ -35,6 +35,7 @@ source $HOME/.zsh/functions.zsh
 source $HOME/.zsh/keybindings.zsh
 source $HOME/.zsh/path.zsh
 source $HOME/.zsh/vars.zsh
+#source $HOME/.zsh/yarn.zsh
 source $HOME/.zsh/hacks/fast-git-dirty-check.zsh
 
 FZF_DIR=/usr/local/opt/fzf/
