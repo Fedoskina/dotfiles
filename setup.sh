@@ -8,6 +8,7 @@ git submodule update --init --recursive
 
 declare -a files=(
   .dircolors
+  .editorconfig
   .gitconfig
   .gitignore
   .gitattributes
