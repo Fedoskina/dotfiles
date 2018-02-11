@@ -5,6 +5,7 @@
 
 ## Additional software
 
+* [Helium](https://itunes.apple.com/us/app/helium/id1054607607?mt=12)
 * [Kap](https://github.com/wulkano/kap/releases)
 
 ## Thanks to…
