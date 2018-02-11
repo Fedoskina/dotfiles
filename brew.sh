@@ -14,6 +14,8 @@ brew install findutils
 # GNU `sed`, overwriting the built-in `sed`
 brew install gnu-sed --with-default-names
 
+brew install yarn
+
 brew install pstree
 
 brew cask install caskroom/versions/java8
