@@ -7,6 +7,7 @@ git submodule init
 git submodule update --init --recursive
 
 declare -a files=(
+  .atom
   .bin
   .dircolors
   .editorconfig
