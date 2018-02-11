@@ -1,9 +1,14 @@
 "*":
+  "atom-package-deps":
+    ignored: [
+      "linter-eslint"
+    ]
   core:
     customFileTypes:
       "source.ini": [
         ".buckconfig"
         ".hgrc"
+        ".flowconfig"
       ]
       "source.json": [
         "BUCK.autodeps"
@@ -12,11 +17,17 @@
         "BUCK"
       ]
     disabledPackages: [
-      "tree-view"
       "exception-reporting"
+      "tree-view"
     ]
   nuclide:
     installRecommendedPackages: true
+    "nuclide-home":
+      showHome: false
+  "tool-bar":
+    iconSize: "12px"
+  welcome:
+    showOnStartup: false
 ".ansi.text":
   editor:
     showIndentGuide: true
