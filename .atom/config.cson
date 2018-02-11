@@ -20,8 +20,13 @@
       "exception-reporting"
       "tree-view"
     ]
+    telemetryConsent: "no"
+  editor:
+    showIndentGuide: true
+    showInvisibles: true
   nuclide:
     installRecommendedPackages: true
+    "nuclide-file-tree": {}
     "nuclide-home":
       showHome: false
   "tool-bar":
