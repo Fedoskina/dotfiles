@@ -1,0 +1,6 @@
+.apm
+.node-gyp
+compile-cache
+github.cson
+packages
+storage

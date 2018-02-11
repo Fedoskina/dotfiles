@@ -1,0 +1,23 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "tree-view"
+      "exception-reporting"
+    ]
+  nuclide:
+    installRecommendedPackages: true
+".ansi.text":
+  editor:
+    showIndentGuide: true
+    showInvisibles: true
